@@ -28,3 +28,11 @@ fixed_tests_False = (
     ( "spam",    "eggs"  )
 )
 """
+
+
+def solution(string, ending):
+    # Check if the ending string is a suffix of the original string
+    return string[-len(ending):] == ending
+
+
+#check the test file for the tests.
